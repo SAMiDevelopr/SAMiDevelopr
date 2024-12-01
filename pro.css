@@ -1,0 +1,180 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: url(bg.img.jpg.jpg) ;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+   background-blend-mode: light;
+}
+.navbar{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.navbar .logo {
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+    padding-left: 25px ;
+    padding-top: 18px;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(253, 143, 0) ;
+}
+.logo img{
+    height: 40px;
+    margin-right: 10px; 
+}
+.navbar nav ul {
+   display: flex;
+   list-style: none;
+}
+.navbar nav ul li{
+    margin: 0 30px;
+}
+.navbar nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.navbar .search-box {
+    display: flex;
+}
+.navbar .search-box input::placeholder{
+    color: white;
+}
+
+.navbar .search-box input {
+    padding-left: 10px;
+    padding-right: 100px;
+    font-size: 15px;
+    border: 1.5px solid rgb(253, 143, 0);
+    border-radius: 5px 0 0 5px;
+    background: none;
+    color: white;
+}
+
+.navbar .search-box button {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    background:rgb(253, 143, 0);
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    padding-top: 100px;
+}
+.content{
+    color: white;
+    padding-top: 0px;
+    padding-bottom: 500px;
+    max-width: 50%;
+    height: 0px;
+    margin-left: 30px;
+
+    
+}
+.content h1{
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.content p{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.join-btn{
+    padding: 10px 60px;
+    font-size: 20px;
+    border: none;
+    background: white;
+    color: black;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+.login-box {
+    max-width: 50%;
+    margin-right: 15px;
+    padding: 28px;
+    border-radius: 10px;
+    background: rgba(25, 25, 26, 0.747);
+    width:20%;
+    height: 600px;
+}
+.login-box h2{
+    margin-bottom: 20px;
+    padding: 10px 0px;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.login-box form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.login-box form input {
+    padding: 15px 10px;
+    border-bottom: 2px solid rgb(253, 143, 0); 
+    border-radius: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: white;
+}
+
+.login-box form input:focus {
+    outline: none;
+    border-bottom: 2px solid white;
+}
+.login-box form button{
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 10px 0px;
+    font-size: 30px;
+    border: none;
+    background: rgb(253, 143, 0);
+    border-radius: 5px;
+    text-align: center;
+}
+.login-box p{
+    padding-top: 30px;
+    color: white;
+    font-size: 21px;
+    text-align: center;
+}
+.login-box a{
+    color: rgb(253, 143, 0) ;
+    text-decoration: none;
+}
+.social-login .icons{
+    border: 1px soled black;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.social-login .icons a img{
+    width: 30px;
+}
+.social-login .icons a img:hover{
+    background-color: rgb(253, 143, 0);
+}

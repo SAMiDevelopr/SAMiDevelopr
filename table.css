@@ -1,0 +1,27 @@
+*{
+    font-family:lora,Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 20px
+}
+table {
+    width: 100%;
+    border-collapse: separate;
+    text-align: left;
+    font-size: 15px;
+}
+table tr:nth-child(odd) {
+    background-color:rgb(198, 220, 228);
+}
+
+table tr th{
+    background-color: rgb(3, 119, 3);
+    color: white;
+    font-size: 18px;
+}
+table tr td{
+    border: 1px solid black;
+    font-weight: bold;
+}
+tbody tr:hover{
+    background-color: rgb(198, 220, 228);
+}
